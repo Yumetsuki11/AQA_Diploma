@@ -30,4 +30,5 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    systemProperty 'db.url', System.getProperty('db.url')
 }
