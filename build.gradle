@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id "io.freefair.lombok" version "5.3.0"
+    id 'io.qameta.allure' version '2.9.6'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+allure {
+    version = '2.16.1'
+    useJUnit5 {
+        version = '2.16.1'
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    testImplementation 'mysql:mysql-connector-java:8.0.18'
+    testImplementation 'com.github.javafaker:javafaker:1.0.1'
+    testImplementation 'com.codeborne:selenide:5.19.0'
+    testImplementation 'commons-dbutils:commons-dbutils:1.7'
+    testImplementation 'io.qameta.allure:allure-selenide:2.16.1'
+}
+
+test {
+    useJUnitPlatform()
+}
