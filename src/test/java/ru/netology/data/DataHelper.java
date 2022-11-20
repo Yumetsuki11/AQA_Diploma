@@ -58,10 +58,10 @@ public class DataHelper {
 
     public static String getRandomCardNumber() {
         long number = faker.number().randomNumber(16, true);
-        for (int i = 0; i < 3; i++) {
-            if (number == Long.parseLong(getApprovedCardNumber()) || number == Long.parseLong(getDeclinedCardNumber())) {
-                number = faker.number().randomNumber(16, true);
-            }
+        int i = 0;
+        while (i < 3 && (number == Long.parseLong(getApprovedCardNumber()) || number == Long.parseLong(getDeclinedCardNumber()))) {
+            number = faker.number().randomNumber(16, true);
+            i++;
         }
         return String.valueOf(number);
     }
