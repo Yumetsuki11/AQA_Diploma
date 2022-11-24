@@ -10,19 +10,19 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class PaymentPage {
-    private SelenideElement cardNumberField = $x("//*[contains(@class, 'form')]/fieldset/div/span/span/span[2]/input");
-    private SelenideElement monthField = $x("//*[contains(@class, 'form')]/fieldset/div[2]/span/span/span/span/span[2]/input");
-    private SelenideElement yearField = $x("//*[contains(@class, 'form')]/fieldset/div[2]/span/span[2]/span/span/span[2]/input");
-    private SelenideElement nameField = $x("//*[contains(@class, 'form')]/fieldset/div[3]/span/span/span/span/span[2]/input");
-    private SelenideElement cvvField = $x("//*[contains(@class, 'form')]/fieldset/div[3]/span/span[2]/span/span/span[2]/input");
+    private SelenideElement cardNumberField = $("[placeholder='0000 0000 0000 0000']");
+    private SelenideElement monthField = $("[placeholder='08']");
+    private SelenideElement yearField = $("[placeholder='22']");
+    private SelenideElement nameField = $x("//*[text()='Владелец']/following-sibling::span/input");
+    private SelenideElement cvvField = $("[placeholder='999']");
 
     private SelenideElement proceedButton = $x("//*[contains(@class, 'form')]//*[contains(@class, 'button')]");
 
-    private SelenideElement cardNumberErrorText = $x("//*[contains(@class, 'form')]/fieldset/div/span/span/span[3]");
-    private SelenideElement monthErrorText = $x("//*[contains(@class, 'form')]/fieldset/div[2]/span/span/span/span/span[3]");
-    private SelenideElement yearErrorText = $x("//*[contains(@class, 'form')]/fieldset/div[2]/span/span[2]/span/span/span[3]");
-    private SelenideElement nameErrorText = $x("//span[text()='Поле обязательно для заполнения']");
-    private SelenideElement cvvErrorText = $x("//*[contains(@class, 'form')]/fieldset/div[3]/span/span[2]/span/span/span[3]");
+    private SelenideElement cardNumberErrorText = $x("//*[text()='Номер карты']/following-sibling::span[2]");
+    private SelenideElement monthErrorText = $x("//*[text()='Месяц']/following-sibling::span[2]");
+    private SelenideElement yearErrorText = $x("//*[text()='Год']/following-sibling::span[2]");
+    private SelenideElement nameErrorText = $x("//*[text()='Владелец']/following-sibling::span[2]");
+    private SelenideElement cvvErrorText = $x("//*[text()='CVC/CVV']/following-sibling::span[2]");
 
     public void pay(DataHelper.CardInfo info) {
         cardNumberField.setValue(info.getCardNumber());
