@@ -35,13 +35,13 @@ public class PaymentPage {
 
     public void successNotificationAssertion() {
         // на мой взгляд, в этих объектах проще ориентироваться, не вводя переменные элементов
-        $(".notification_status_ok").shouldBe(Condition.visible, Duration.ofSeconds(20));
+        $(".notification_status_ok").shouldBe(Condition.visible, Duration.ofSeconds(15));
         $(".notification_status_ok .notification__title").shouldHave(Condition.text("Успешно"));
         $(".notification_status_ok .notification__content").shouldHave(Condition.text("Операция одобрена Банком."));
     }
 
     public void errorNotificationAssertion() {
-        $(".notification_status_error").shouldBe(Condition.visible, Duration.ofSeconds(20));
+        $(".notification_status_error").shouldBe(Condition.visible, Duration.ofSeconds(15));
         $(".notification_status_error .notification__title").shouldHave(Condition.text("Ошибка"));
         $(".notification_status_error .notification__content").shouldHave(Condition.text("Ошибка! Банк отказал в проведении операции."));
     }

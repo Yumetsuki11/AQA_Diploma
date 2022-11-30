@@ -26,18 +26,18 @@ public class PaymentTest {
         Selenide.closeWindow();
     }
 
+    StartingPage page;
+
     @BeforeEach
     public void setup() {
         Configuration.holdBrowserOpen = true;
-        open("http://localhost:8080");
+        page = open("http://localhost:8080", StartingPage.class);
     }
 
     @AfterEach
     public void cleanup() {
         DataHelper.deleteOldData();
     }
-
-    StartingPage page = new StartingPage();
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
@@ -115,7 +115,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getDeclinedCardInfo();
-        info.setCardNumber("0000000000000000");
+        info.setCardNumber(DataHelper.getAllZerosCardNumber());
         paymentPage.pay(info);
         paymentPage.errorNotificationAssertion();
     }
@@ -131,7 +131,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getDeclinedCardInfo();
-        info.setCardNumber("444444444444444");
+        info.setCardNumber(DataHelper.get15DigitNumber());
         paymentPage.pay(info);
         paymentPage.invalidCardNumberAssertion("Неверный формат");
     }
@@ -147,7 +147,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getDeclinedCardInfo();
-        info.setCardNumber("6");
+        info.setCardNumber(DataHelper.get1DigitNumber());
         paymentPage.pay(info);
         paymentPage.invalidCardNumberAssertion("Неверный формат");
     }
@@ -164,7 +164,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getDeclinedCardInfo();
-        info.setCardNumber("");
+        info.setCardNumber(DataHelper.getEmptyValue());
         paymentPage.pay(info);
         paymentPage.invalidCardNumberAssertion("Поле обязательно для заполнения");
     }
@@ -180,7 +180,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("01");
+        info.setMonth(DataHelper.getMonth01());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         paymentPage.pay(info);
         paymentPage.successNotificationAssertion();
@@ -197,7 +197,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("02");
+        info.setMonth(DataHelper.getMonth02());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         paymentPage.pay(info);
         paymentPage.successNotificationAssertion();
@@ -214,7 +214,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("11");
+        info.setMonth(DataHelper.getMonth11());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         paymentPage.pay(info);
         paymentPage.successNotificationAssertion();
@@ -231,7 +231,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("12");
+        info.setMonth(DataHelper.getMonth12());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         paymentPage.pay(info);
         paymentPage.successNotificationAssertion();
@@ -266,7 +266,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("00");
+        info.setMonth(DataHelper.getMonth00orYear00());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         paymentPage.pay(info);
         paymentPage.invalidMonthAssertion("Неверно указан срок действия карты");
@@ -283,7 +283,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("13");
+        info.setMonth(DataHelper.getMonth13());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         paymentPage.pay(info);
         paymentPage.invalidMonthAssertion("Неверно указан срок действия карты");
@@ -318,7 +318,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("");
+        info.setMonth(DataHelper.getEmptyValue());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         paymentPage.pay(info);
         paymentPage.invalidMonthAssertion("Поле обязательно для заполнения");
@@ -335,7 +335,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("5");
+        info.setMonth(DataHelper.get1DigitNumber());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         paymentPage.pay(info);
         paymentPage.invalidMonthAssertion("Неверный формат");
@@ -401,7 +401,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setYear("");
+        info.setYear(DataHelper.getEmptyValue());
         paymentPage.pay(info);
         paymentPage.invalidYearAssertion("Поле обязательно для заполнения");
     }
@@ -417,7 +417,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setYear("2");
+        info.setYear(DataHelper.get1DigitNumber());
         paymentPage.pay(info);
         paymentPage.invalidYearAssertion("Неверный формат");
     }
@@ -434,7 +434,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setYear("00");
+        info.setYear(DataHelper.getMonth00orYear00());
         paymentPage.pay(info);
         paymentPage.invalidYearAssertion("Истёк срок действия карты");
     }
@@ -450,7 +450,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("X Y");
+        info.setName(DataHelper.getInitials());
         paymentPage.pay(info);
         paymentPage.successNotificationAssertion();
     }
@@ -466,7 +466,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Amogus Sussussybakaimpostor");
+        info.setName(DataHelper.getNameOf27Symbols());
         paymentPage.pay(info);
         paymentPage.successNotificationAssertion();
     }
@@ -482,7 +482,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Anni-Frid Lyngstad");
+        info.setName(DataHelper.getNameWithHyphen());
         paymentPage.pay(info);
         paymentPage.successNotificationAssertion();
     }
@@ -498,7 +498,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Gilbert O'Sullivan");
+        info.setName(DataHelper.getNameWithApostrophe());
         paymentPage.pay(info);
         paymentPage.successNotificationAssertion();
     }
@@ -514,7 +514,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Amogus Susssussybakaimpostor");
+        info.setName(DataHelper.getNameOf28Symbols());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Неверный формат");
     }
@@ -531,7 +531,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("");
+        info.setName(DataHelper.getEmptyValue());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Поле обязательно для заполнения");
     }
@@ -547,7 +547,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("a");
+        info.setName(DataHelper.get1Letter());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Неверный формат");
     }
@@ -563,7 +563,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Yumetsuki");
+        info.setName(DataHelper.get1Word());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Неверный формат");
     }
@@ -579,7 +579,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("I love Finger");
+        info.setName(DataHelper.get3Words());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Неверный формат");
     }
@@ -595,7 +595,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName(" Yumetsuki");
+        info.setName(DataHelper.get1WordEndingWithSpace());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Неверный формат");
     }
@@ -611,7 +611,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Yumetsuki ");
+        info.setName(DataHelper.get1WordEndingWithSpace());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Неверный формат");
     }
@@ -627,7 +627,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Евгений Поливанов");
+        info.setName(DataHelper.getCyrillicName());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Неверный формат");
     }
@@ -643,7 +643,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("505 8425662");
+        info.setName(DataHelper.getNumberWithSpace());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Неверный формат");
     }
@@ -659,7 +659,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("!@#$%^&*() {}|/:'<>?");
+        info.setName(DataHelper.getSymbolsWithSpace());
         paymentPage.pay(info);
         paymentPage.invalidNameAssertion("Неверный формат");
     }
@@ -691,7 +691,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setCvv("000");
+        info.setCvv(DataHelper.getZeroCvv());
         paymentPage.pay(info);
         paymentPage.successNotificationAssertion();
     }
@@ -707,7 +707,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setCvv("8");
+        info.setCvv(DataHelper.get1DigitNumber());
         paymentPage.pay(info);
         paymentPage.invalidCvvAssertion("Неверный формат");
     }
@@ -724,7 +724,7 @@ public class PaymentTest {
         
         val paymentPage = page.choosePayment();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setCvv("");
+        info.setCvv(DataHelper.getEmptyValue());
         paymentPage.pay(info);
         paymentPage.invalidCvvAssertion("Поле обязательно для заполнения");
     }

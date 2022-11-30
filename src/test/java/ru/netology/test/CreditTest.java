@@ -27,13 +27,14 @@ public class CreditTest {
         Selenide.closeWindow();
     }
 
+    StartingPage page;
+
     @BeforeEach
     public void setup() {
         Configuration.holdBrowserOpen = true;
-        open("http://localhost:8080");
+        page = open("http://localhost:8080", StartingPage.class);
     }
 
-    StartingPage page = new StartingPage();
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
@@ -111,7 +112,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getDeclinedCardInfo();
-        info.setCardNumber("0000000000000000");
+        info.setCardNumber(DataHelper.getAllZerosCardNumber());
         creditPage.pay(info);
         creditPage.errorNotificationAssertion();
     }
@@ -127,7 +128,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getDeclinedCardInfo();
-        info.setCardNumber("444444444444444");
+        info.setCardNumber(DataHelper.get15DigitNumber());
         creditPage.pay(info);
         creditPage.invalidCardNumberAssertion("Неверный формат");
     }
@@ -143,7 +144,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getDeclinedCardInfo();
-        info.setCardNumber("6");
+        info.setCardNumber(DataHelper.get1DigitNumber());
         creditPage.pay(info);
         creditPage.invalidCardNumberAssertion("Неверный формат");
     }
@@ -160,7 +161,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getDeclinedCardInfo();
-        info.setCardNumber("");
+        info.setCardNumber(DataHelper.getEmptyValue());
         creditPage.pay(info);
         creditPage.invalidCardNumberAssertion("Поле обязательно для заполнения");
     }
@@ -176,7 +177,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("01");
+        info.setMonth(DataHelper.getMonth01());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         creditPage.pay(info);
         creditPage.successNotificationAssertion();
@@ -193,7 +194,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("02");
+        info.setMonth(DataHelper.getMonth02());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         creditPage.pay(info);
         creditPage.successNotificationAssertion();
@@ -210,7 +211,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("11");
+        info.setMonth(DataHelper.getMonth11());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         creditPage.pay(info);
         creditPage.successNotificationAssertion();
@@ -227,7 +228,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("12");
+        info.setMonth(DataHelper.getMonth12());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         creditPage.pay(info);
         creditPage.successNotificationAssertion();
@@ -262,7 +263,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("00");
+        info.setMonth(DataHelper.getMonth00orYear00());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         creditPage.pay(info);
         creditPage.invalidMonthAssertion("Неверно указан срок действия карты");
@@ -279,7 +280,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("13");
+        info.setMonth(DataHelper.getMonth13());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         creditPage.pay(info);
         creditPage.invalidMonthAssertion("Неверно указан срок действия карты");
@@ -314,7 +315,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("");
+        info.setMonth(DataHelper.getEmptyValue());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         creditPage.pay(info);
         creditPage.invalidMonthAssertion("Поле обязательно для заполнения");
@@ -331,7 +332,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setMonth("5");
+        info.setMonth(DataHelper.get1DigitNumber());
         info.setYear(DataHelper.generateYearByCurr(1, 0));
         creditPage.pay(info);
         creditPage.invalidMonthAssertion("Неверный формат");
@@ -397,7 +398,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setYear("");
+        info.setYear(DataHelper.getEmptyValue());
         creditPage.pay(info);
         creditPage.invalidYearAssertion("Поле обязательно для заполнения");
     }
@@ -413,7 +414,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setYear("2");
+        info.setYear(DataHelper.get1DigitNumber());
         creditPage.pay(info);
         creditPage.invalidYearAssertion("Неверный формат");
     }
@@ -430,7 +431,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setYear("00");
+        info.setYear(DataHelper.getMonth00orYear00());
         creditPage.pay(info);
         creditPage.invalidYearAssertion("Истёк срок действия карты");
     }
@@ -446,7 +447,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("X Y");
+        info.setName(DataHelper.getInitials());
         creditPage.pay(info);
         creditPage.successNotificationAssertion();
     }
@@ -462,7 +463,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Amogus Sussussybakaimpostor");
+        info.setName(DataHelper.getNameOf27Symbols());
         creditPage.pay(info);
         creditPage.successNotificationAssertion();
     }
@@ -478,7 +479,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Anni-Frid Lyngstad");
+        info.setName(DataHelper.getNameWithHyphen());
         creditPage.pay(info);
         creditPage.successNotificationAssertion();
     }
@@ -494,7 +495,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Gilbert O'Sullivan");
+        info.setName(DataHelper.getNameWithApostrophe());
         creditPage.pay(info);
         creditPage.successNotificationAssertion();
     }
@@ -510,7 +511,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Amogus Susssussybakaimpostor");
+        info.setName(DataHelper.getNameOf28Symbols());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Неверный формат");
     }
@@ -527,7 +528,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("");
+        info.setName(DataHelper.getEmptyValue());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Поле обязательно для заполнения");
     }
@@ -543,7 +544,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("a");
+        info.setName(DataHelper.get1Letter());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Неверный формат");
     }
@@ -559,7 +560,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Yumetsuki");
+        info.setName(DataHelper.get1Word());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Неверный формат");
     }
@@ -575,7 +576,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("I love Finger");
+        info.setName(DataHelper.get3Words());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Неверный формат");
     }
@@ -591,7 +592,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName(" Yumetsuki");
+        info.setName(DataHelper.get1WordStartingWithSpace());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Неверный формат");
     }
@@ -607,7 +608,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Yumetsuki ");
+        info.setName(DataHelper.get1WordEndingWithSpace());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Неверный формат");
     }
@@ -623,7 +624,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("Евгений Поливанов");
+        info.setName(DataHelper.getCyrillicName());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Неверный формат");
     }
@@ -639,7 +640,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("505 8425662");
+        info.setName(DataHelper.getNumberWithSpace());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Неверный формат");
     }
@@ -655,7 +656,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setName("!@#$%^&*() {}|/:'<>?");
+        info.setName(DataHelper.getSymbolsWithSpace());
         creditPage.pay(info);
         creditPage.invalidNameAssertion("Неверный формат");
     }
@@ -687,7 +688,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setCvv("000");
+        info.setCvv(DataHelper.getZeroCvv());
         creditPage.pay(info);
         creditPage.successNotificationAssertion();
     }
@@ -703,7 +704,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setCvv("8");
+        info.setCvv(DataHelper.get1DigitNumber());
         creditPage.pay(info);
         creditPage.invalidCvvAssertion("Неверный формат");
     }
@@ -720,7 +721,7 @@ public class CreditTest {
         
         val creditPage = page.chooseCredit();
         DataHelper.CardInfo info = DataHelper.getApprovedCardInfo();
-        info.setCvv("");
+        info.setCvv(DataHelper.getEmptyValue());
         creditPage.pay(info);
         creditPage.invalidCvvAssertion("Поле обязательно для заполнения");
     }

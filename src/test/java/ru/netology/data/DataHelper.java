@@ -14,10 +14,12 @@ import java.sql.DriverManager;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 public class DataHelper {
 
     private static final Faker faker = new Faker();
+    private static final Faker ruFaker = new Faker(Locale.forLanguageTag("ru"));
 
     private DataHelper() {
     }
@@ -76,14 +78,110 @@ public class DataHelper {
 
     public static String getRandomName() {
         String name = faker.name().name();
-        name.replace(".", "")
-                .replace("-", "")
-                .replace("\'", "");
+        name.replace(".", "");
+        name.replace("-", "");
+        name.replace("\'", "");
         return name;
     }
 
     public static String getRandomNonZeroCvv() {
         return faker.numerify("1##");
+    }
+
+    public static String getEmptyValue() {
+        return "";
+    }
+
+    public static String getAllZerosCardNumber() {
+        return "0000000000000000";
+    }
+
+    public static String get15DigitNumber() {
+        return faker.numerify("###############");
+    }
+
+    public static String get1DigitNumber() {
+        return faker.numerify("#");
+    }
+
+    public static String getMonth00orYear00() {
+        return "00";
+    }
+
+    public static String getMonth01() {
+        return "01";
+    }
+
+    public static String getMonth02() {
+        return "02";
+    }
+
+    public static String getMonth11() {
+        return "11";
+    }
+
+    public static String getMonth12() {
+        return "12";
+    }
+
+    public static String getMonth13() {
+        return "13";
+    }
+
+    public static String getInitials() {
+        return faker.letterify("? ?");
+    }
+
+    public static String getNameOf27Symbols() {
+        return faker.letterify("???????????? ??????????????");
+    }
+
+    public static String getNameOf28Symbols() {
+        return faker.letterify("????????????? ??????????????");
+    }
+
+    public static String getNameWithHyphen() {
+        return faker.letterify("????-????? ?????");
+    }
+
+    public static String getNameWithApostrophe() {
+        return faker.letterify("?????? ?'???????");
+    }
+
+    public static String get1Letter() {
+        return faker.letterify("?");
+    }
+
+    public static String get1Word() {
+        return faker.letterify("?????");
+    }
+
+    public static String get3Words() {
+        return faker.letterify("???? ?????? ???????");
+    }
+
+    public static String get1WordStartingWithSpace() {
+        return faker.letterify(" ?????");
+    }
+
+    public static String get1WordEndingWithSpace() {
+        return faker.letterify("????? ");
+    }
+
+    public static String getCyrillicName() {
+        return ruFaker.name().firstName() + " " + ruFaker.name().lastName();
+    }
+
+    public static String getNumberWithSpace() {
+        return faker.numerify("### #######");
+    }
+
+    public static String getSymbolsWithSpace() {
+        return "!@#$%^&*() {}|/:'<>?";
+    }
+
+    public static String getZeroCvv() {
+        return "000";
     }
 
     @SneakyThrows
