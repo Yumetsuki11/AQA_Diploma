@@ -1,0 +1,1629 @@
+{
+  "d21347450edbdc1e8becf62cc8ec9e75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89b758f5c80c1fcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817238144,
+        "stop" : 1669817244637,
+        "duration" : 6493
+      }
+    } ]
+  },
+  "8ae4bb3539d707793015e4a05718b035" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db105dfa32d2f834",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817039033,
+        "stop" : 1669817040373,
+        "duration" : 1340
+      }
+    } ]
+  },
+  "a4c4930224916e04b7741b5f50dcc000" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f7d6a7c323951fe",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817350186.28.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817350186.28.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817344939,
+        "stop" : 1669817350721,
+        "duration" : 5782
+      }
+    } ]
+  },
+  "8108a3184c61f01636646f3235eb1cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7e19505119470d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817216003,
+        "stop" : 1669817217146,
+        "duration" : 1143
+      }
+    } ]
+  },
+  "5b3a5c12ed9cc0116758cbed1fb189b6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86962642c708161e",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Номер карты']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669816983619.1.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669816983619.1.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1669816978565,
+        "stop" : 1669816984066,
+        "duration" : 5501
+      }
+    } ]
+  },
+  "ab371a28349f7c8855599812fbfcc0d3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a48a6b250db4b825",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817032285,
+        "stop" : 1669817033484,
+        "duration" : 1199
+      }
+    } ]
+  },
+  "7f51e224d152917250a9719fe77b150a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69154aa3f4a082ba",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817100461.6.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817100461.6.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817095374,
+        "stop" : 1669817100923,
+        "duration" : 5549
+      }
+    } ]
+  },
+  "4704874b42a7bcb19d46df8cee5dffd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6edb3e02547a196b",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669816957661.0.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669816957661.0.html\r\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1669816941103,
+        "stop" : 1669816958109,
+        "duration" : 17006
+      }
+    } ]
+  },
+  "971e94e01a803302bca555c34963cce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "addfd19df2c3a495",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817222540,
+        "stop" : 1669817228732,
+        "duration" : 6192
+      }
+    } ]
+  },
+  "b4fd562ef71337ae36c9d9aa242a76e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7fd97b285722de3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817270705,
+        "stop" : 1669817271920,
+        "duration" : 1215
+      }
+    } ]
+  },
+  "5843607648ce935ef353577506543eda" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "146291bda7f4fd96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817055796,
+        "stop" : 1669817057082,
+        "duration" : 1286
+      }
+    } ]
+  },
+  "6af5b49d60ec9b53912687a902a312e0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b31e15d0e91fa66d",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817117584.9.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817117584.9.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817112271,
+        "stop" : 1669817118162,
+        "duration" : 5891
+      }
+    } ]
+  },
+  "1505a33370a4c4e573f4275bbb238a14" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "165626e8ff2d67f3",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='CVC/CVV']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817162511.14.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817162511.14.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1669817157298,
+        "stop" : 1669817162944,
+        "duration" : 5646
+      }
+    } ]
+  },
+  "258b7f7e2aa77b2324fbd610d74976b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85b8899f0c637b30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817156047,
+        "stop" : 1669817157290,
+        "duration" : 1243
+      }
+    } ]
+  },
+  "6be2e3985f6df777a9c8dccd5a43d340" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "967569d809c3650f",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817316022.22.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817316022.22.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817310834,
+        "stop" : 1669817316599,
+        "duration" : 5765
+      }
+    } ]
+  },
+  "ada9e3777e07d9895511b81b247fa6fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a588f70a748b986",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669816958127,
+        "stop" : 1669816962068,
+        "duration" : 3941
+      }
+    } ]
+  },
+  "e2eb25835e56186341c55fb0f11ca09b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88e0f2fb11fabf6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817047725,
+        "stop" : 1669817048991,
+        "duration" : 1266
+      }
+    } ]
+  },
+  "d19a50f83550b842b3f6808f4e9298d9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de6113e64b12cf0b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817344378.27.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817344378.27.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817339295,
+        "stop" : 1669817344933,
+        "duration" : 5638
+      }
+    } ]
+  },
+  "d707148a23333496a704109ace5d9d72" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e26d025adb58097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817214818,
+        "stop" : 1669817215997,
+        "duration" : 1179
+      }
+    } ]
+  },
+  "8c1520babf09bd3b2d8bc064d3eee544" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83f66e06554708a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817235406,
+        "stop" : 1669817238139,
+        "duration" : 2733
+      }
+    } ]
+  },
+  "a8831279684b326ef5a0d255508cc5b6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df5fe9b03813711d",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Месяц']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817038620.3.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817038620.3.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1669817033499,
+        "stop" : 1669817039024,
+        "duration" : 5525
+      }
+    } ]
+  },
+  "89263398dfe96a45de09902199cfa50b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1428ed67fdfb6337",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Год']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817055337.4.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817055337.4.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1669817050300,
+        "stop" : 1669817055789,
+        "duration" : 5489
+      }
+    } ]
+  },
+  "b2e2939e85b6c5137b1f0d18968ed033" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57baa376e8bc28e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669816989064,
+        "stop" : 1669817000000,
+        "duration" : 10936
+      }
+    } ]
+  },
+  "d886ae4a7666e7e1366c67ce3235ae3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b5856b47feaba9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817356541,
+        "stop" : 1669817364827,
+        "duration" : 8286
+      }
+    } ]
+  },
+  "ddfb158a420e8fe1bdcae7f37f338a96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdf5223b5ec4a96a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817000007,
+        "stop" : 1669817007357,
+        "duration" : 7350
+      }
+    } ]
+  },
+  "e818df3b6c8cc6f85362fd054abd171a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38c271c90db8866a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817321826.23.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817321826.23.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817316606,
+        "stop" : 1669817322394,
+        "duration" : 5788
+      }
+    } ]
+  },
+  "300891ed59f9bdd195895f83354e1af1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61d2e857071f410e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817258707,
+        "stop" : 1669817259910,
+        "duration" : 1203
+      }
+    } ]
+  },
+  "e2965c1c2fc377fa1f7994c795736417" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ba3cfe4045c6f09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817278467,
+        "stop" : 1669817279628,
+        "duration" : 1161
+      }
+    } ]
+  },
+  "1c92b6c3cf73472b7752ce577866cd65" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffc76ef3af0f1b01",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817140771.13.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817140771.13.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817135577,
+        "stop" : 1669817141280,
+        "duration" : 5703
+      }
+    } ]
+  },
+  "b104720dfea963632c51edba2fe0a23e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91513972519dc145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669816984077,
+        "stop" : 1669816989057,
+        "duration" : 4980
+      }
+    } ]
+  },
+  "9851b5fdeeb05d5c0b47050743bc0b38" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "761bfcdaf8423ebe",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817309297.21.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817309297.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817304017,
+        "stop" : 1669817309733,
+        "duration" : 5716
+      }
+    } ]
+  },
+  "ef2870ba18275747e6b38b8df4ab3178" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a38f962bfb8e5c1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817063360,
+        "stop" : 1669817071912,
+        "duration" : 8552
+      }
+    } ]
+  },
+  "d2627fd5c2a68b4071adef8cbde67932" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e98115bdf4d89f1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669816967867,
+        "stop" : 1669816976057,
+        "duration" : 8190
+      }
+    } ]
+  },
+  "d6791ca9ad6ec7f3d58ee848d90374d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d5c21824f83f6b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817030999,
+        "stop" : 1669817032277,
+        "duration" : 1278
+      }
+    } ]
+  },
+  "2f349e926b8cfad88c096faec9bba5de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff103161041b2651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817265518,
+        "stop" : 1669817266684,
+        "duration" : 1166
+      }
+    } ]
+  },
+  "5e3847e13d840c59c0d5bbf44192910f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f35439c9e48dd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817279632,
+        "stop" : 1669817289245,
+        "duration" : 9613
+      }
+    } ]
+  },
+  "89c7837cb20f4e4f94a696bfafdaeddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cab17b4f0d897f7d",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Месяц']/following-sibling::span[2]}\r\nExpected: text 'Неверно указан срок действия карты'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817030447.2.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817030447.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817025347,
+        "stop" : 1669817030989,
+        "duration" : 5642
+      }
+    } ]
+  },
+  "df6b7220cf7b4ba5ef399d844742803f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1734d138897f783",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817071919,
+        "stop" : 1669817077966,
+        "duration" : 6047
+      }
+    } ]
+  },
+  "1b75db93611cb4c01ad7731845dc1f6e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb27f1a807cc59d",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Месяц']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817265090.19.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817265090.19.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1669817259917,
+        "stop" : 1669817265513,
+        "duration" : 5596
+      }
+    } ]
+  },
+  "e71446ffd39faa6e13ca4e34c411a0b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df7725ee0483b1d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817257401,
+        "stop" : 1669817258652,
+        "duration" : 1251
+      }
+    } ]
+  },
+  "1341c022a412d80f54e78eab874855b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f0a04fdaec7b4e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817244643,
+        "stop" : 1669817251706,
+        "duration" : 7063
+      }
+    } ]
+  },
+  "583d06604b051dadf28e40492d9a2ac1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44447c55e7202cc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817057132,
+        "stop" : 1669817058399,
+        "duration" : 1267
+      }
+    } ]
+  },
+  "ac49b5da324ad5325162a326abd03e4b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34d363e9288fb654",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817333353.25.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817333353.25.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817328129,
+        "stop" : 1669817333830,
+        "duration" : 5701
+      }
+    } ]
+  },
+  "74be594dd3691137134e0183111ba320" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b7b16889f98d3a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817040378,
+        "stop" : 1669817047718,
+        "duration" : 7340
+      }
+    } ]
+  },
+  "44307b704eb9cd91af7144a2cfbfc03d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f94a27f4fbcf7e60",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Номер карты']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817222184.17.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817222184.17.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1669817217152,
+        "stop" : 1669817222534,
+        "duration" : 5382
+      }
+    } ]
+  },
+  "2ad4676d3e5f516139e7533b152b3f6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d400dcb13077454e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669816977354,
+        "stop" : 1669816978558,
+        "duration" : 1204
+      }
+    } ]
+  },
+  "ec2a68ab7626b4b0b8891efb95d465dc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9728bd8b6f0977a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817129179.11.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817129179.11.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817123752,
+        "stop" : 1669817129763,
+        "duration" : 6011
+      }
+    } ]
+  },
+  "469b759a92f41f155336eb8045405126" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da3e92ae3a539a75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817364832,
+        "stop" : 1669817368281,
+        "duration" : 3449
+      }
+    } ]
+  },
+  "f3484ab84c38da146c3c81ebbdacf68f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e77b756f0d2a1571",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817184635.15.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817184635.15.html\r\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1669817168314,
+        "stop" : 1669817185071,
+        "duration" : 16757
+      }
+    } ]
+  },
+  "350f8e560ed76ce0bce372b6951958ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34a3ae15d01b10be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817266690,
+        "stop" : 1669817269514,
+        "duration" : 2824
+      }
+    } ]
+  },
+  "d12ed3f9d01ae14c976a9f2e0ffa87c5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9551e8eabadef8f",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817093773.5.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817093773.5.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817088603,
+        "stop" : 1669817094191,
+        "duration" : 5588
+      }
+    } ]
+  },
+  "1929d940877098102c36a6e81dab9204" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5e9aa72bb21f116",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817111764.8.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817111764.8.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817106598,
+        "stop" : 1669817112264,
+        "duration" : 5666
+      }
+    } ]
+  },
+  "308e2bce7fc65f93a234a633d80a3678" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b0d2f157734104d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817309741,
+        "stop" : 1669817310829,
+        "duration" : 1088
+      }
+    } ]
+  },
+  "e9f7f7da589038290b10ed7323e07b57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a79bf956deb670a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817163139,
+        "stop" : 1669817168308,
+        "duration" : 5169
+      }
+    } ]
+  },
+  "dda16c925212f6bc26a9124fc64fd451" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cacff22293dada6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669816924861,
+        "stop" : 1669816940935,
+        "duration" : 16074
+      }
+    } ]
+  },
+  "a18a839d709ca969019d249c3166129e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b35babe8ad0dd06",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817135112.12.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817135112.12.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817129770,
+        "stop" : 1669817135569,
+        "duration" : 5799
+      }
+    } ]
+  },
+  "5633316914df91a6f92a8f1612e53028" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5cad78378f561f9",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817123291.10.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817123291.10.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817118170,
+        "stop" : 1669817123745,
+        "duration" : 5575
+      }
+    } ]
+  },
+  "9372fb6057ff8b50d3887cf509fd2135" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4de23f02c4f7d5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817277311,
+        "stop" : 1669817278461,
+        "duration" : 1150
+      }
+    } ]
+  },
+  "f82240f6f172910075bfb28e296e4645" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "faff8c8a84a7cc2",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817106030.7.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817106030.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817100931,
+        "stop" : 1669817106589,
+        "duration" : 5658
+      }
+    } ]
+  },
+  "ae6696ac152b16e1b4588a9de9fc82a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37693d603418634a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817289250,
+        "stop" : 1669817295824,
+        "duration" : 6574
+      }
+    } ]
+  },
+  "2c1d79317593796329076e478aaa3c4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e27a2444816d1299",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817368286,
+        "stop" : 1669817369446,
+        "duration" : 1160
+      }
+    } ]
+  },
+  "a929a214e72236e49c562f0b49dda02c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6bc8d3fa39f186a",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817201153.16.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817201153.16.html\r\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1669817185077,
+        "stop" : 1669817201577,
+        "duration" : 16500
+      }
+    } ]
+  },
+  "5d72d23fb2bc5e855c06ccd1caffdb4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3e920cb412218b2",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Год']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817276920.20.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817276920.20.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1669817271927,
+        "stop" : 1669817277304,
+        "duration" : 5377
+      }
+    } ]
+  },
+  "434c94a907668d27ddde069d79d70e64" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd65770f5c438ef6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817228737,
+        "stop" : 1669817235399,
+        "duration" : 6662
+      }
+    } ]
+  },
+  "c82119ddb26b6704fd0130a93c50be7e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "640d919d9e87a7b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669816962075,
+        "stop" : 1669816967857,
+        "duration" : 5782
+      }
+    } ]
+  },
+  "fd51e3f37b4ec42549ea29558b03440d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "186b2de9bb8426ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817077974,
+        "stop" : 1669817088597,
+        "duration" : 10623
+      }
+    } ]
+  },
+  "bce3bcda02b52432d438c202395bec6e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b460397911676f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817048997,
+        "stop" : 1669817050245,
+        "duration" : 1248
+      }
+    } ]
+  },
+  "d4051b418ec6fff2a79a922d2929e284" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4837cab720009159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817211317,
+        "stop" : 1669817214813,
+        "duration" : 3496
+      }
+    } ]
+  },
+  "1f7a4847100210001b83ca0a9c0e58e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed028383151543c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817141288,
+        "stop" : 1669817145413,
+        "duration" : 4125
+      }
+    } ]
+  },
+  "c976b353ffbd7239e235e274649a47f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de94aaa285fb50d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817007363,
+        "stop" : 1669817018784,
+        "duration" : 11421
+      }
+    } ]
+  },
+  "1062adda2ccb983e6741ab75bcf609f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15280a0da1745aff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817201583,
+        "stop" : 1669817211308,
+        "duration" : 9725
+      }
+    } ]
+  },
+  "3bb743ce4c09810f49f87df3567cd7de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a0be9ad8e26a585",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817058405,
+        "stop" : 1669817063354,
+        "duration" : 4949
+      }
+    } ]
+  },
+  "3eaf50fcbf81d7346850cf7ae7528990" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "40621321801b8941",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817094198,
+        "stop" : 1669817095368,
+        "duration" : 1170
+      }
+    } ]
+  },
+  "609bee387978be0d8cd3689ca1c263f7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb64d5342d491ddf",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='CVC/CVV']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817374576.30.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817374576.30.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1669817369451,
+        "stop" : 1669817374969,
+        "duration" : 5518
+      }
+    } ]
+  },
+  "ec59abeafb08a3eb4a62f08fa186b0f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0d08b59f62ac47e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817269519,
+        "stop" : 1669817270697,
+        "duration" : 1178
+      }
+    } ]
+  },
+  "b5d0d162fee13b25fc336359d76f3f31" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d93b55b26489a39e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817356031.29.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817356031.29.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817350726,
+        "stop" : 1669817356535,
+        "duration" : 5809
+      }
+    } ]
+  },
+  "e19b091ee06f9f6754690de90ee410da" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b06014eed9f53207",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Месяц']/following-sibling::span[2]}\r\nExpected: text 'Неверно указан срок действия карты'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817256982.18.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817256982.18.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817251712,
+        "stop" : 1669817257395,
+        "duration" : 5683
+      }
+    } ]
+  },
+  "4869ae9fd4cc4cb51bdaacaa2121b38a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d95de1f4a214bff",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817338901.26.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817338901.26.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817333837,
+        "stop" : 1669817339288,
+        "duration" : 5451
+      }
+    } ]
+  },
+  "108ade2c070757e4423979c4898db2bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c09e228e7ea46a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817295830,
+        "stop" : 1669817299706,
+        "duration" : 3876
+      }
+    } ]
+  },
+  "3c9b1161745f5d80b57f585cdc4e5395" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b3f6c67b684b664",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817327649.24.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817327649.24.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "time" : {
+        "start" : 1669817322399,
+        "stop" : 1669817328123,
+        "duration" : 5724
+      }
+    } ]
+  },
+  "91859d61318a51e00cdfddb2cbbef6fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b72fc3a1c2cd5e5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817018791,
+        "stop" : 1669817025340,
+        "duration" : 6549
+      }
+    } ]
+  },
+  "8760d669509e7da40b859e50470553a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b587b5929a23269",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817299711,
+        "stop" : 1669817304012,
+        "duration" : 4301
+      }
+    } ]
+  },
+  "1e2797eec9f05a603754a6fcf94b036e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8aab503e407ef0bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669817145421,
+        "stop" : 1669817156042,
+        "duration" : 10621
+      }
+    } ]
+  },
+  "d6749b5ee2227938ae42f4ebb60b1ec4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33e773141ec3b860",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669816976063,
+        "stop" : 1669816977323,
+        "duration" : 1260
+      }
+    } ]
+  }
+}

@@ -35,6 +35,10 @@ public class CreditTest {
         page = open("http://localhost:8080", StartingPage.class);
     }
 
+    @AfterEach
+    public void cleanup() {
+        DataHelper.deleteOldData();
+    }
 
     @Test
     @Severity(SeverityLevel.CRITICAL)

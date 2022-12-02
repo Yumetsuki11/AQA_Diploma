@@ -1,0 +1,660 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be visible {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669816957661.0.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669816957661.0.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "02-03 Негативные сценарии оплаты тура. Оплата в кредит с карты статуса DECLINED",
+        "uid" : "6edb3e02547a196b",
+        "parentUid" : "270b38fbb8b8c17a7e0785cf070fef7d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669816941103,
+          "stop" : 1669816958109,
+          "duration" : 17006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "270b38fbb8b8c17a7e0785cf070fef7d"
+    }, {
+      "name" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Номер карты']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669816983619.1.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669816983619.1.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "04-05 Поле \"Номер карты\", оплата в кредит. Граничное невалидное значение. Пустое поле",
+        "uid" : "86962642c708161e",
+        "parentUid" : "f1f3ea9ffd531f98664f602332189743",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669816978565,
+          "stop" : 1669816984066,
+          "duration" : 5501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1f3ea9ffd531f98664f602332189743"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Месяц']/following-sibling::span[2]}\r\nExpected: text 'Неверно указан срок действия карты'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817030447.2.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817030447.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "06-06 Поле \"Месяц\", оплата в кредит. Граничное невалидное значение. Число 00 при годе, равном текущему+1",
+        "uid" : "cab17b4f0d897f7d",
+        "parentUid" : "24c3a91745ec64a868673654762b7e5e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817025347,
+          "stop" : 1669817030989,
+          "duration" : 5642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24c3a91745ec64a868673654762b7e5e"
+    }, {
+      "name" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Месяц']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817038620.3.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817038620.3.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "06-09 Поле \"Месяц\", оплата в кредит. Пустое поле",
+        "uid" : "df5fe9b03813711d",
+        "parentUid" : "d9cfc525c500fcaf00c67ca66eefe3f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817033499,
+          "stop" : 1669817039024,
+          "duration" : 5525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d9cfc525c500fcaf00c67ca66eefe3f6"
+    }, {
+      "name" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Год']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817055337.4.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817055337.4.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "08-04 Поле \"Год\", оплата в кредит. Невалидное значение. Пустое поле",
+        "uid" : "1428ed67fdfb6337",
+        "parentUid" : "3cf82ef2ded58aa1724040f5752bc28d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817050300,
+          "stop" : 1669817055789,
+          "duration" : 5489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cf82ef2ded58aa1724040f5752bc28d"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817093773.5.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817093773.5.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "10-05 Поле \"Владелец\", оплата в кредит. Граничное по длине невалидное значение. Латиница, 28 символов",
+        "uid" : "f9551e8eabadef8f",
+        "parentUid" : "5eb7b6e65ec85927f9393e9641a4c392",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817088603,
+          "stop" : 1669817094191,
+          "duration" : 5588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5eb7b6e65ec85927f9393e9641a4c392"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817100461.6.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817100461.6.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "10-07 Поле \"Владелец\", оплата в кредит. Граничное по длине невалидное значение. Одна латинская буква",
+        "uid" : "69154aa3f4a082ba",
+        "parentUid" : "7cb47b47363e763bd5d76cb3648f1e06",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817095374,
+          "stop" : 1669817100923,
+          "duration" : 5549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cb47b47363e763bd5d76cb3648f1e06"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817106030.7.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817106030.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "10-08 Поле \"Владелец\", оплата в кредит. Граничное по числу пробелов невалидное значение. Латиница без пробелов",
+        "uid" : "faff8c8a84a7cc2",
+        "parentUid" : "52d7d562f2a4aeb4d54e334579fb180c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817100931,
+          "stop" : 1669817106589,
+          "duration" : 5658
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52d7d562f2a4aeb4d54e334579fb180c"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817111764.8.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817111764.8.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "10-09 Поле \"Владелец\", оплата в кредит. Граничное по числу пробелов невалидное значение. Латиница с двумя пробелами посередине",
+        "uid" : "b5e9aa72bb21f116",
+        "parentUid" : "2926fd42c35894d38f8502ed630fac0a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817106598,
+          "stop" : 1669817112264,
+          "duration" : 5666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2926fd42c35894d38f8502ed630fac0a"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817117584.9.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817117584.9.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "10-10 Поле \"Владелец\", оплата в кредит. Невалидное значение. Латиница с пробелом в начале",
+        "uid" : "b31e15d0e91fa66d",
+        "parentUid" : "c63ec379f16b1f93f12fc22850ddca75",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817112271,
+          "stop" : 1669817118162,
+          "duration" : 5891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c63ec379f16b1f93f12fc22850ddca75"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817123291.10.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817123291.10.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "10-11 Поле \"Владелец\", оплата в кредит. Невалидное значение. Латиница с пробелом в конце",
+        "uid" : "a5cad78378f561f9",
+        "parentUid" : "b25ef6d899ffe251cc93010333b84ea6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817118170,
+          "stop" : 1669817123745,
+          "duration" : 5575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b25ef6d899ffe251cc93010333b84ea6"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817129179.11.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817129179.11.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "10-12 Поле \"Владелец\", оплата в кредит. Невалидное значение. Кириллица с пробелом посередине",
+        "uid" : "9728bd8b6f0977a",
+        "parentUid" : "aea16af163446207104f47843455fa18",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817123752,
+          "stop" : 1669817129763,
+          "duration" : 6011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aea16af163446207104f47843455fa18"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817135112.12.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817135112.12.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "10-13 Поле \"Владелец\", оплата в кредит. Невалидное значение. Цифры с пробелом посередине",
+        "uid" : "4b35babe8ad0dd06",
+        "parentUid" : "64e0b60cb4c32cf53e2addb15bc7e06a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817129770,
+          "stop" : 1669817135569,
+          "duration" : 5799
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64e0b60cb4c32cf53e2addb15bc7e06a"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817140771.13.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817140771.13.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "10-14 Поле \"Владелец\", оплата в кредит. Невалидное значение. Спецсимволы с пробелом посередине",
+        "uid" : "ffc76ef3af0f1b01",
+        "parentUid" : "5f9371160712f15e50923a3c1c0a140c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817135577,
+          "stop" : 1669817141280,
+          "duration" : 5703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f9371160712f15e50923a3c1c0a140c"
+    }, {
+      "name" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='CVC/CVV']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817162511.14.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817162511.14.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "12-04 Поле \"CVC/CVV\", оплата в кредит. Невалидное значение. Пустое поле",
+        "uid" : "165626e8ff2d67f3",
+        "parentUid" : "33583d7773a1f6761d4c3c8685c41116",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817157298,
+          "stop" : 1669817162944,
+          "duration" : 5646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33583d7773a1f6761d4c3c8685c41116"
+    }, {
+      "name" : "Element should be visible {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817184635.15.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817184635.15.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "02-01 Негативные сценарии оплаты тура. Прямая оплата с карты статуса DECLINED",
+        "uid" : "e77b756f0d2a1571",
+        "parentUid" : "b4a3dc754eb635ef8d1fe8f5256d38e3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817168314,
+          "stop" : 1669817185071,
+          "duration" : 16757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4a3dc754eb635ef8d1fe8f5256d38e3"
+    }, {
+      "name" : "Element should be visible {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817201153.16.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817201153.16.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "02-02 Негативные сценарии оплаты тура. Прямая оплата с несуществующей карты",
+        "uid" : "b6bc8d3fa39f186a",
+        "parentUid" : "b3cca6525b7b230c1233291c073be593",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817185077,
+          "stop" : 1669817201577,
+          "duration" : 16500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3cca6525b7b230c1233291c073be593"
+    }, {
+      "name" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Номер карты']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817222184.17.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817222184.17.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "03-05 Поле \"Номер карты\", оплата по карте. Граничное невалидное значение. Пустое поле",
+        "uid" : "f94a27f4fbcf7e60",
+        "parentUid" : "f2bdb9559e41671fdc18ea0f245c93b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817217152,
+          "stop" : 1669817222534,
+          "duration" : 5382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2bdb9559e41671fdc18ea0f245c93b0"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Месяц']/following-sibling::span[2]}\r\nExpected: text 'Неверно указан срок действия карты'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817256982.18.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817256982.18.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "05-06 Поле \"Месяц\", оплата по карте. Граничное невалидное значение. Число 00 при годе, равном текущему+1",
+        "uid" : "b06014eed9f53207",
+        "parentUid" : "3cccd6eba9aeeacf7ab6257f2f6959cc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817251712,
+          "stop" : 1669817257395,
+          "duration" : 5683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cccd6eba9aeeacf7ab6257f2f6959cc"
+    }, {
+      "name" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Месяц']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817265090.19.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817265090.19.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "05-09 Поле \"Месяц\", оплата по карте. Пустое поле",
+        "uid" : "cb27f1a807cc59d",
+        "parentUid" : "047dae23d80f78e6233d4ef2970c7d60",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817259917,
+          "stop" : 1669817265513,
+          "duration" : 5596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "047dae23d80f78e6233d4ef2970c7d60"
+    }, {
+      "name" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='Год']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817276920.20.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817276920.20.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "07-04 Поле \"Год\", оплата по карте. Невалидное значение. Пустое поле",
+        "uid" : "d3e920cb412218b2",
+        "parentUid" : "791258110f4094a6cd1e620ebb72b1d4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817271927,
+          "stop" : 1669817277304,
+          "duration" : 5377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "791258110f4094a6cd1e620ebb72b1d4"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817309297.21.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817309297.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "09-05 Поле \"Владелец\", оплата по карте. Граничное по длине невалидное значение. Латиница, 28 символов",
+        "uid" : "761bfcdaf8423ebe",
+        "parentUid" : "309549c4a29d3dfe0cd3f7379c8bdc1f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817304017,
+          "stop" : 1669817309733,
+          "duration" : 5716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "309549c4a29d3dfe0cd3f7379c8bdc1f"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817316022.22.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817316022.22.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "09-07 Поле \"Владелец\", оплата по карте. Граничное по длине невалидное значение. Одна латинская буква",
+        "uid" : "967569d809c3650f",
+        "parentUid" : "3183e9bd1001610481a2e25166dff746",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817310834,
+          "stop" : 1669817316599,
+          "duration" : 5765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3183e9bd1001610481a2e25166dff746"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817321826.23.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817321826.23.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "09-08 Поле \"Владелец\", оплата по карте. Граничное по числу пробелов невалидное значение. Латиница без пробелов",
+        "uid" : "38c271c90db8866a",
+        "parentUid" : "a5b022571c06ed578097bedb6d4cefaa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817316606,
+          "stop" : 1669817322394,
+          "duration" : 5788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5b022571c06ed578097bedb6d4cefaa"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817327649.24.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817327649.24.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "09-09 Поле \"Владелец\", оплата по карте. Граничное по числу пробелов невалидное значение. Латиница с двумя пробелами посередине",
+        "uid" : "5b3f6c67b684b664",
+        "parentUid" : "eebf66927d3b121d13bf3a084863a07a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817322399,
+          "stop" : 1669817328123,
+          "duration" : 5724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eebf66927d3b121d13bf3a084863a07a"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817333353.25.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817333353.25.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "09-10 Поле \"Владелец\", оплата по карте. Невалидное значение. Латиница с пробелом в начале",
+        "uid" : "34d363e9288fb654",
+        "parentUid" : "3e330cd9b8ef96444589960da363f0fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817328129,
+          "stop" : 1669817333830,
+          "duration" : 5701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e330cd9b8ef96444589960da363f0fe"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817338901.26.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817338901.26.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "09-11 Поле \"Владелец\", оплата по карте. Невалидное значение. Латиница с пробелом в конце",
+        "uid" : "7d95de1f4a214bff",
+        "parentUid" : "c204d81b2d8e0402024715a948d163bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817333837,
+          "stop" : 1669817339288,
+          "duration" : 5451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c204d81b2d8e0402024715a948d163bf"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817344378.27.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817344378.27.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "09-12 Поле \"Владелец\", оплата по карте. Невалидное значение. Кириллица с пробелом посередине",
+        "uid" : "de6113e64b12cf0b",
+        "parentUid" : "e96b2aa5991752987b65588ba7a51d5b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817339295,
+          "stop" : 1669817344933,
+          "duration" : 5638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e96b2aa5991752987b65588ba7a51d5b"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817350186.28.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817350186.28.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "09-13 Поле \"Владелец\", оплата по карте. Невалидное значение. Цифры с пробелом посередине",
+        "uid" : "6f7d6a7c323951fe",
+        "parentUid" : "e0f6fe1beef1b8f4f25fd20b36611ba2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817344939,
+          "stop" : 1669817350721,
+          "duration" : 5782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0f6fe1beef1b8f4f25fd20b36611ba2"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/following-sibling::span[2]}\r\nExpected: text 'Неверный формат'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817356031.29.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817356031.29.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/following-sibling::span[2]\"}",
+      "children" : [ {
+        "name" : "09-14 Поле \"Владелец\", оплата по карте. Невалидное значение. Спецсимволы с пробелом посередине",
+        "uid" : "d93b55b26489a39e",
+        "parentUid" : "010822c4cea9db556752bcd46db0009c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817350726,
+          "stop" : 1669817356535,
+          "duration" : 5809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "010822c4cea9db556752bcd46db0009c"
+    }, {
+      "name" : "Element should have text 'Поле обязательно для заполнения' {By.xpath: //*[text()='CVC/CVV']/following-sibling::span[2]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817374576.30.png\r\nPage source: file:/C:/Users/Shar2/IdeaProjects/AQADiploma/build/reports/tests/1669817374576.30.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "11-04 Поле \"CVC/CVV\", оплата по карте. Невалидное значение. Пустое поле",
+        "uid" : "bb64d5342d491ddf",
+        "parentUid" : "755177695b5881cedf5ad5a54e4b4d2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1669817369451,
+          "stop" : 1669817374969,
+          "duration" : 5518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "755177695b5881cedf5ad5a54e4b4d2c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

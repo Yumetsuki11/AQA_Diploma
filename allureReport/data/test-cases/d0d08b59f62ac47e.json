@@ -1,0 +1,300 @@
+{
+  "uid" : "d0d08b59f62ac47e",
+  "name" : "07-02 Поле \"Год\", оплата по карте. Граничное невалидное значение. Текущий год-1",
+  "fullName" : "ru.netology.test.PaymentTest.test0702",
+  "historyId" : "ec59abeafb08a3eb4a62f08fa186b0f0",
+  "time" : {
+    "start" : 1669817269519,
+    "stop" : 1669817270697,
+    "duration" : 1178
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1669817163099,
+      "stop" : 1669817163135,
+      "duration" : 36
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1669817269519,
+      "stop" : 1669817269569,
+      "duration" : 50
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1669817269519,
+        "stop" : 1669817269569,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"By.xpath: //*[@id='root']/div/button[1]\") click()",
+      "time" : {
+        "start" : 1669817269569,
+        "stop" : 1669817269659,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[placeholder='0000 0000 0000 0000']\") set value(4444444444444441)",
+      "time" : {
+        "start" : 1669817269659,
+        "stop" : 1669817269846,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[placeholder='08']\") set value(02)",
+      "time" : {
+        "start" : 1669817269846,
+        "stop" : 1669817269986,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[placeholder='22']\") set value(21)",
+      "time" : {
+        "start" : 1669817269986,
+        "stop" : 1669817270121,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Владелец']/following-sibling::span/input\") set value(Eugene Simonis II)",
+      "time" : {
+        "start" : 1669817270121,
+        "stop" : 1669817270323,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"[placeholder='999']\") set value(127)",
+      "time" : {
+        "start" : 1669817270323,
+        "stop" : 1669817270470,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[contains(@class, 'form')]//*[contains(@class, 'button')]\") click()",
+      "time" : {
+        "start" : 1669817270470,
+        "stop" : 1669817270580,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Год']/following-sibling::span[2]\") should have(text 'Истёк срок действия карты')",
+      "time" : {
+        "start" : 1669817270581,
+        "stop" : 1669817270630,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Год']/following-sibling::span[2]\") should be(visible)",
+      "time" : {
+        "start" : 1669817270630,
+        "stop" : 1669817270670,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "cleanup",
+    "time" : {
+      "start" : 1669817270670,
+      "stop" : 1669817270697,
+      "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1669817374974,
+      "stop" : 1669817375098,
+      "duration" : 124
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.test.PaymentTest]/[method:test0702()]"
+  }, {
+    "name" : "story",
+    "value" : "Standard payment"
+  }, {
+    "name" : "epic",
+    "value" : "#Negative"
+  }, {
+    "name" : "epic",
+    "value" : "Unit"
+  }, {
+    "name" : "feature",
+    "value" : "Year"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SSTL6S7"
+  }, {
+    "name" : "thread",
+    "value" : "12716@DESKTOP-SSTL6S7.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.PaymentTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.PaymentTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test0702"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.PaymentTest"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0d08b59f62ac47e.json",
+  "parameterValues" : [ ]
+}
