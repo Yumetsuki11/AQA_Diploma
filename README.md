@@ -1,4 +1,9 @@
-# Инструкция по запуску автотестов
+## Документы
+- [План автоматизации тестирования](https://github.com/Yumetsuki11/AQA_Diploma/blob/9d82846e174f8354e37698037a81bf0ec9c3ef0e/docs/plan.md)
+- [Отчёт по итогам тестирования](https://github.com/Yumetsuki11/AQA_Diploma/blob/9d82846e174f8354e37698037a81bf0ec9c3ef0e/docs/Report.md)
+- [Отчёт по итогам автоматизации](https://github.com/Yumetsuki11/AQA_Diploma/blob/9d82846e174f8354e37698037a81bf0ec9c3ef0e/docs/Summary.md)
+
+## Инструкция по запуску автотестов
 
 1. Установить и запустить Docker
 2. Установить IntelliJ IDEA и запустить в этой среде проект
